@@ -11,9 +11,9 @@ export default function Home() {
     <section className='w-full'>
     <Navbar />
     <Homepage />
-    <About />
-    <Utilities />
-    <Communities />
+    {/* <About /> */}
+    {/* <Utilities /> */}
+    {/* <Communities /> */}
  
     </section>
    </main>
