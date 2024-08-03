@@ -43,3 +43,8 @@ background: linear-gradient(90deg, #FDFF98 1.61%, #FF9E99 37.95%, #FFCC00 74.3%,
     color: transparent;
     background-clip: text; 
   }
+  .close {
+    z-index: 1000;
+    /* padding-right: 40px; */
+    position: relative;
+  }

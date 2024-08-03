@@ -9,7 +9,7 @@ const Homepage = () => {
         <div className='image lg:w-full object-cover h-[615px] lg:h-[600px]  '></div>
 
         <section className='absolute mx-auto w-full mx-auto lg:w-full top-0 left-0 right-0 flex flex-col justify-center '>
-          <div className='lg:max-w-[1440px] w-[93%] flex justify-center lg:w-full '>
+          <div className='lg:max-w-[1440px] w-[93%] flex justify-center lg:w-full mx-auto '>
             <div className='mx-auto text-white pt-[27px] '>
               <div className='mx-auto flex justify-center '>
                 <div className='mx-auto flex justify-center  lg:w-[289px] homebtn lg:mx-[0px] mx-auto w-[220px] h-[39px] rounded-[12px] text-[#FFFFFF] p-[0.6px]'>

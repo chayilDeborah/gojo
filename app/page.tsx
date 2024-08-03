@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Homepage from './components/Homepage'
 import Navbar from './components/Navbar'
+import About from './components/About'
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
     <section className='w-full'>
     <Navbar />
     <Homepage />
+    <About />
  
     </section>
    </main>
