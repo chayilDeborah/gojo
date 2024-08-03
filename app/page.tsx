@@ -13,8 +13,9 @@ export default function Home() {
     <Homepage />
     <About />
     <Utilities />
-    {/* <Communities /> */}
- 
+    <div>
+    <Communities />
+    </div>
     </section>
    </main>
   )
