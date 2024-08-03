@@ -20,7 +20,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={open.className}>{children}</body>
+      <body className={open.className}><link rel="icon" href="/gojologo.jpg" sizes="any" />
+        {children}</body>
     </html>
   )
 }
