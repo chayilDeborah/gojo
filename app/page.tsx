@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Homepage from './components/Homepage'
 import Navbar from './components/Navbar'
 import About from './components/About'
+import Utilities from './components/Utilities'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
     <Navbar />
     <Homepage />
     <About />
+    <Utilities />
  
     </section>
    </main>
