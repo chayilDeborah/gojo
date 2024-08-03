@@ -4,7 +4,7 @@ import whatsapp from '../assets/whatsapp.png'
 
 const Utilities = () => {
     return (
-        <main className='w-full overflow-hidden  relative mx-auto '>
+        <main className='w-full relative mx-auto '>
             <div className='content bg-[#000000] relative'>
                 <div className='image2 lg:w-full object-cover h-[615px] lg:h-[1471px] lg:mt-[0px] -mt-[11%] '></div>
 

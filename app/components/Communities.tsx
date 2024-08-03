@@ -9,7 +9,7 @@ import Link from 'next/link'
 const Communities = () => {
   return (
     <section>
-    <main className='w-full overflow-hidden relative mx-auto mt-[2150px] lg:-mt-[65px] '>
+    <main className='w-full relative mx-auto mt-[2150px] lg:-mt-[65px] '>
         <div className='content bg-[#000000] relative'>
         <div className='image3 lg:w-full object-cover h-[615px] lg:h-[925px] lg:mb-[50px] '></div>
 
