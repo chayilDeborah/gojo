@@ -2,26 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@font-face {
+    font-family: 'JujutsuKaisen';
+    src: url('/fonts/Jujutsu Kaisen.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
   }
-}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    background: #000000;
+    /* font-family: 'JujutsuKaisen', sans-serif; */
 }
+.image {
+    background-image: url(https://res.cloudinary.com/dmye53wps/image/upload/v1722656956/dots_knup2u.gif);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    color: #fff;
+  }
+  .content {
+    display: grid;
+  }
+  .homebtn {
+
+background: linear-gradient(90deg, #FDFF98 1.61%, #FF9E99 37.95%, #FFCC00 74.3%, #FF0004 110.64%);
+  }
+  .hometext {
+    background-image: linear-gradient(90deg, #FDFF98 1.61%, #FF9E99 37.95%, #FFCC00 74.3%, #FF0004 110.64%);
+
+    color: transparent;
+    background-clip: text; 
+  }
+  .font {
+    font-family: 'JujutsuKaisen', sans-serif;
+  }
+  .smalltext{
+
+    background: linear-gradient(205.6deg, #D9DAD9 16.74%, #737473 64.66%);
+
+    color: transparent;
+    background-clip: text; 
+  }
