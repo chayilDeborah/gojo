@@ -5,7 +5,7 @@ import cloud from '../assets/cloud.svg'
 
 const About = () => {
     return (
-        <main className='w-full  relative mx-auto '>
+        <main className='w-full  relative mx-auto lg:mt-[44%] '>
             <div className='content bg-[#000000] relative'>
                 <div className='image lg:w-full object-cover h-[1300px] lg:h-[760px]  '></div>
 

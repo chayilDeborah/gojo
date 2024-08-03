@@ -34,6 +34,20 @@ body {
     background-blend-mode: multiply;
     color: #fff;
   }
+  .image4 {
+    background-image: url(https://res.cloudinary.com/dmye53wps/image/upload/v1722694864/photo_5868583128333927318_y_jpgjxa.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    color: #fff;
+  }
+  .image5 {
+    background-image: url(https://res.cloudinary.com/dmye53wps/image/upload/v1722699972/safeimagekit-cropped-img_1_syksno.png);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    color: #fff;
+  }
   .content {
     display: grid;
   }
@@ -59,6 +73,11 @@ background: linear-gradient(90deg, #FDFF98 1.61%, #FF9E99 37.95%, #FFCC00 74.3%,
   }
   .close {
     z-index: 1000;
+    /* padding-right: 40px; */
+    position: relative;
+  }
+  .close1 {
+    z-index: 500;
     /* padding-right: 40px; */
     position: relative;
   }
