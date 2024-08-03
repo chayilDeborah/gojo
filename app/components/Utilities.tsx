@@ -6,11 +6,11 @@ const Utilities = () => {
     return (
         <main className='w-full  relative mx-auto '>
             <div className='content bg-[#000000] relative'>
-                <div className='imag lg:w-full object-cover h-[615px] lg:h-[760px]  '></div>
+                <div className='image2 lg:w-full object-cover h-[615px] lg:h-[1471px] -mt-[11%] '></div>
 
                 <section className='absolute mx-auto w-full mx-auto lg:w-full top-0 left-0 right-0 flex flex-col justify-center '>
                     <div className='lg:max-w-[1440px] w-[93%] mx-auto flex justify-center lg:w-full '>
-                        <div className='mt-[100px] lg:mt-[224px] '>
+                        <div className='mt-[100px]  '>
                             <h1 className='lg:text-[200px] text-[100px] leading-[90px] lg:leading-[180px] -tracking-[2%] font text-[#D9DAD9] text-center '>Utilities</h1>
                             <div className='mt-[37px] grid grid-cols-1 lg:grid-cols-3 gap-[30px] lg:gap-[62px] mb-[50px] '>
                                 <div className='lg:w-[369px] w-[330px]  round '>
