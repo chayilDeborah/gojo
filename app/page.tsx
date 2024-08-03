@@ -3,6 +3,7 @@ import Homepage from './components/Homepage'
 import Navbar from './components/Navbar'
 import About from './components/About'
 import Utilities from './components/Utilities'
+import Communities from './components/Communities'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
     <Homepage />
     <About />
     <Utilities />
+    <Communities />
  
     </section>
    </main>
