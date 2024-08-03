@@ -9,7 +9,7 @@ export default function Home() {
   return (
    <main className='flex justify-center  '>
     <section className='w-full'>
-    <Navbar />
+    {/* <Navbar /> */}
     <Homepage />
     <About />
     <Utilities />

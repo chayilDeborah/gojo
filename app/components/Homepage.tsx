@@ -4,7 +4,9 @@ const Homepage = () => {
   return (
 <main className=''>
   <section className=' z-20 close1 w-fit mx-auto flex flex-col'>
-  <div className='image5 w-[900px] h-[405px]'></div>
+  <div className='image5 hidden lg:block w-[900px] h-[405px]'></div>
+  <div className='image6 lg:hidden block lg:w-[900px] h-[405px]'></div>
+
   </section>
 
     <div className='w-full  relative mx-auto -mt-[405px] '>
@@ -16,7 +18,7 @@ const Homepage = () => {
           <div className='lg:max-w-[1440px] w-[93%] flex justify-center lg:w-full mx-auto '>
             <div className='mx-auto text-white pt-[27px] '>
               <div className='mx-auto flex justify-center close'>
-                <div className='mx-auto flex justify-center  lg:w-[289px] homebtn lg:mx-[0px] mx-auto w-[240px] h-[39px] rounded-[12px] text-[#FFFFFF] p-[0.7px]'>
+                <div className='mx-auto flex justify-center mt-[50px] lg:w-[289px] homebtn lg:mx-[0px] mx-auto w-[240px] h-[39px] rounded-[12px] text-[#FFFFFF] p-[0.7px]'>
                   <div className='flex justify-center items-center rounded-[12px] bg-[#000401] flex h-full w-full items-center justify-center'>
                     <h1 className='lg:text-[16px] text-[13px] leading-[19.2px] -tracking-[2%] hometext mx-[10px] '>Trading web3 tokens on WhatsApp</h1>
                   </div>
@@ -26,7 +28,7 @@ const Homepage = () => {
                 
                 <h1 className='lg:text-[98.7px] text-[58.7px] leading-[63.8px] lg:leading-[88.8px] -tracking-[2%] font lg:w-[840px] text-center '>Empowering  Your Crypto Investments</h1>
                 <h2 className='text-[16px] leading-[19.2px] -tracking-[2%] smalltext text-center mt-[19px]  '>Trading web3 tokens on WhatsApp</h2>
-                <div className='mx-auto flex justify-center mt-[23%] '>
+                <div className='mx-auto flex justify-center mt-[120px] '>
                   <button className='mx-auto flex justify-center  w-[183px] homebtn lg:mx-[0px] mx-auto h-[38px] rounded-[18px] text-[#FFFFFF] p-[1px]'>
                     <div className='flex justify-center items-center rounded-[18px] bg-[#000401] flex h-full w-full items-center justify-center'>
                       <h1 className='text-[13px] lg:text-[16px] leading-[19.2px] -tracking-[2%] text-[#E6F6E8] font-semibold'>TRADE NOW</h1>
