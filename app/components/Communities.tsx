@@ -7,7 +7,7 @@ import telegram from '../assets/telegram.svg'
 const Communities = () => {
   return (
     <section>
-    <main className='w-full  relative mx-auto mt-[250%] '>
+    <main className='w-full  relative mx-auto mt-[600%] lg:mt-[0px] '>
         <div className='content bg-[#000000] relative'>
         <div className='imae lg:w-full object-cover  '></div>
 
