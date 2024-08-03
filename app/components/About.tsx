@@ -7,7 +7,7 @@ const About = () => {
     return (
         <main className='w-full  relative mx-auto '>
             <div className='content bg-[#000000] relative'>
-                <div className='image lg:w-full object-cover h-[615px] lg:h-[760px]  '></div>
+                <div className='image lg:w-full object-cover h-[1300px] lg:h-[760px]  '></div>
 
                 <section className='absolute mx-auto w-full mx-auto lg:w-full top-0 left-0 right-0 flex flex-col justify-center '>
                     <div className='lg:max-w-[1440px] w-[93%] mx-auto flex justify-center lg:w-full '>
